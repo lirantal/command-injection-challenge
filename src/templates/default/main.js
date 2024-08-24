@@ -1,2 +1,2 @@
 import './style-reset.css';
-// import './style.css';
+import './style.css';
