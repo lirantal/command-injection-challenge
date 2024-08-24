@@ -2,6 +2,12 @@
 type: lesson
 title: Process Exec Payloads
 focus: /api-timezone.js
+terminal:
+  panels:
+    - 'terminal'
+    - 'output'
+  activePanel: 1
+  allowRedirects: true
 ---
 
 # Welcome to your first Command Injection lesson!
