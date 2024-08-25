@@ -2,6 +2,8 @@
 type: lesson
 title: Challenge 1
 focus: /api-timezone.js
+previews:
+  - { title: 'Preview', port: 3000, pathname: '/index.html'}
 terminal:
   panels:
     - 'terminal'
