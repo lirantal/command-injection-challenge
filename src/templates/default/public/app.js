@@ -9,7 +9,7 @@ window.addEventListener('DOMContentLoaded', () => {
         if (data.error) {
             result.innerHTML = data.error;
         } else {
-            result.innerHTML = data.timezone;
+            result.innerHTML = JSON.stringify(data.timezone);
         }
     });
 });
