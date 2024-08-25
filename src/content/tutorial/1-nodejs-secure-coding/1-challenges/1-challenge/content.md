@@ -7,7 +7,12 @@ terminal:
     - 'terminal'
     - 'output'
   activePanel: 1
-  allowRedirects: true
+  allowRedirects: false
+  allowCommands:
+    - ls
+    - echo
+    - curl
+    - cp
 ---
 
 ## Can you hack me?
