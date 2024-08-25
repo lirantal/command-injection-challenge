@@ -1,4 +1,4 @@
 ---
 type: chapter
-title: Basics
+title: Challenges
 ---
