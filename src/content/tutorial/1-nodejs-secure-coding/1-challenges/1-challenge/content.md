@@ -14,7 +14,6 @@ terminal:
     - ls
     - echo
     - curl
-    - cp
 ---
 
 ## Can you hack me?

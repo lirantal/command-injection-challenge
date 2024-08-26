@@ -19,7 +19,7 @@ app.use(express.static(path.join(__dirname, '../public')));
 app.get('/api/timezone', async (req, res) => {
 
   try {
-    const commandResult = await execPromise(`curl -X 'GET' -H 'accept: application/json' 'https://timeapi.io/api/time/current/zone?timeZone=${req.query.timezone}'`);
+    const commandResult = await execPromise(`sh -c "curl -X 'GET' -H 'accept: application/json' 'https://timeapi.io/api/time/current/zone?timeZone=${req.query.timezone}'"`);
     return res.json({ timezone: commandResult.stdout });
   } catch (error) {
     return res.json({ error: error.message });
