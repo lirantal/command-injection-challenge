@@ -4,6 +4,7 @@
     "jsx": "react-jsx",
     "jsxImportSource": "react",
     "paths": {
+      "node_modules/*": ["./node_modules/*"],
       "@*": [
         "./src/*"
       ]
