@@ -2,11 +2,11 @@
   "extends": "astro/tsconfigs/strict",
   "compilerOptions": {
     "jsx": "react-jsx",
-    "baseUrl": "./",
     "jsxImportSource": "react",
     "paths": {
+      "node_modules/*": ["./node_modules/*"],
       "@*": [
-        "src/*"
+        "./src/*"
       ]
     }
   },
